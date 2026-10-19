@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Reel / Clapper background card -->
+    <path
+        android:pathData="M30,30 h48 a6,6 0 0,1 6,6 v36 a6,6 0 0,1 -6,6 h-48 a6,6 0 0,1 -6,-6 v-36 a6,6 0 0,1 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF1E38" android:offset="0.0" />
+                <item android:color="#D6001C" android:offset="0.6" />
+                <item android:color="#940010" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Film reel accent line / top stripe -->
+    <path
+        android:fillColor="#220004"
+        android:pathData="M24,30 h60 v8 h-60 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,32 h6 v4 h-6 z M42,32 h6 v4 h-6 z M54,32 h6 v4 h-6 z M66,32 h6 v4 h-6 z M78,32 h4 v4 h-4 z" />
+    <!-- Play Triangle Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,46 L66,56 L48,66 Z" />
+    <!-- Reel accent sparkles -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M70,39 L72,43 L76,45 L72,47 L70,51 L68,47 L64,45 L68,43 Z" />
+</vector>

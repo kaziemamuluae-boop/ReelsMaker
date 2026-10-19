@@ -1,0 +1,6 @@
+{
+  "name": "Reels Maker",
+  "description": "Professional Smart Reels Maker, Video Editor, Auto Clip Generator with Red & Black Theme, Timeline, Crop, Text, Logo, and Frame features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
